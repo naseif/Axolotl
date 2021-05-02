@@ -1,0 +1,30 @@
+{
+  "name": "axolotl",
+  "version": "1.0.0",
+  "description": "Kanbanflow based task manager",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naseif/Axolotl.git"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "kanban",
+    "kanbanflow"
+  ],
+  "author": "naseif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naseif/Axolotl/issues"
+  },
+  "homepage": "https://github.com/naseif/Axolotl#readme"
+}
