@@ -3,6 +3,9 @@ const config = require("./config.json")
 const express = require('express')
 let app = express()
 const port = 51337;
+const cors = require("cors")
+
+app.use(cors())
 
 app.get('/', function (req, res) {
     let con = mysql.createConnection({
