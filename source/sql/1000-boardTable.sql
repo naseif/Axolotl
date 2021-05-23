@@ -7,3 +7,8 @@ INSERT INTO Board (
 ) Values (
 	'Naseif'
 );
+INSERT INTO Board (
+	`Name` 
+) Values (
+	'Stefan'
+);
